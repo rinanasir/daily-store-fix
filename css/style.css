@@ -2,6 +2,11 @@ body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
 }
+#store-name{
+  text-align: center;
+  font-weight: bolder;
+  color: cornflowerblue;
+}
 .search-field {
   border: none;
   border-radius: 50px;
@@ -17,7 +22,7 @@ body {
   width: 281px;
   border-radius: 5px;
   margin: auto;
-  margin-top: 50px;
+  margin-bottom: 8px;
   border-right: none;
 }
 .search-button {
