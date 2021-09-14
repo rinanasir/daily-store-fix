@@ -9,7 +9,7 @@ const loadProducts = () => {
 const showProducts = (products) => {
   const allProducts = products.map((pd) => pd);
   for (const product of allProducts) {
-    console.log(product);
+    // console.log(product);
     const image = product.image;
     const div = document.createElement("div");
     div.classList.add("product");
@@ -28,6 +28,7 @@ const showProducts = (products) => {
     document.getElementById("all-products").appendChild(div);
   }
 };
+// cart oparetion
 let count = 0;
 const addToCart = (id, price) => {
   count = count + 1;
@@ -38,6 +39,7 @@ const addToCart = (id, price) => {
   updateTotal();
 };
 
+// get innerText function
 const getInputValue = (id) => {
   const element = document.getElementById(id).innerText;
   const converted = parseFloat(element);
